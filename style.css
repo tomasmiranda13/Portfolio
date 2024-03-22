@@ -2,8 +2,6 @@ body {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
 }
-.wrapper {
-}
 a {
   z-index: 1;
 }
@@ -13,12 +11,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 50px 50px 0px 50px;
-}
-.img-background {
-  height: 200px;
-  width: 200px;
-  background-color: #172d91;
-  border-radius: 50%;
 }
 .row {
   position: relative;
@@ -34,13 +26,13 @@ a {
   width: fit-content;
   padding: 10px;
   border-radius: 25px;
-  border: 2px solid #172d91;
+  border: 2px solid #1b20f9;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 a {
   text-decoration: none;
-  color: #172d91;
+  color: #1b20f9;
 }
 .first-impressive {
   display: flex;
@@ -63,7 +55,7 @@ h3 {
   width: 24px;
 }
 .about-me {
-  background-color: #172d91;
+  background-color: #1b20f9;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,6 +82,7 @@ h3 {
   align-items: center;
   padding: 0 50px;
 }
+
 ul {
   display: flex;
   flex-direction: column;
@@ -116,14 +109,30 @@ ul {
   border: 1px solid rgb(218, 207, 207);
   border-radius: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
   overflow: hidden;
   background-color: white;
 }
+.img-proyect {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar-link {
+  height: 40px;
+  background-color: #1b20f9;
+  bottom: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
 
 footer {
-  background-color: #172d91;
+  background-color: #1b20f9;
   height: 300px;
   display: flex;
   justify-content: center;
