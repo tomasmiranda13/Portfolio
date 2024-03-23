@@ -159,3 +159,10 @@ footer h3 {
   font-size: 36px;
   font-weight: 500;
 }
+
+@media (max-width: 745px) {
+  .about-me {
+    height: 600px;
+    padding-top: 0;
+  }
+}
