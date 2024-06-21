@@ -1,6 +1,8 @@
 body {
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
+  background-color: #000049;
+  color: white;
 }
 
 .nav-container {
@@ -19,17 +21,17 @@ body {
 .contact {
   display: flex;
   background-color: transparent;
-  color: #090c9b;
+  color: #0f04fc;
   width: fit-content;
   padding: 10px;
   border-radius: 25px;
-  border: 2px solid #090c9b;
+  border: 2px solid #0f04fc;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 a {
   text-decoration: none;
-  color: #090c9b;
+  color: #0f04fc;
 }
 .first-impressive {
   display: flex;
@@ -53,7 +55,7 @@ h3 {
   width: 24px;
 }
 .about-me {
-  background-color: #090c9b;
+  background-color: #0f04fc;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,7 +80,7 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: white;
-  border: 1px solid #a15ef7;
+  border: 1px solid #b395db;
   box-shadow: 0px 3px 5px -5px rgb(15, 15, 15);
   color: black;
   border-radius: 20px;
@@ -122,7 +124,7 @@ ul {
 .proyect-container {
   width: 300px;
   height: 200px;
-  border: 1px solid #a15ef7;
+  border: 1px solid #0f04fc;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
