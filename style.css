@@ -219,7 +219,7 @@ p {
 @media (max-width: 475px) {
   .about-me {
     height: fit-content;
-    padding-top: 0;
+    padding: 5px;
   }
   .skills-list {
     display: grid;
