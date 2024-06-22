@@ -55,22 +55,20 @@ h3 {
   width: 24px;
 }
 .about-me {
-  background-color: #0f04fc;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #fbfff1;
-  padding-top: 60px;
-  height: fit-content;
+  border: 1px solid #0f04fc;
+  border-radius: 20px;
+  margin: 0 20px;
 }
 .self-presentation {
-  margin: 40px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 40px;
   text-align: center;
 }
 .skills {
@@ -79,13 +77,11 @@ h3 {
   gap: 20px;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  border: 1px solid #b395db;
-  box-shadow: 0px 3px 5px -5px rgb(15, 15, 15);
-  color: black;
-  border-radius: 20px;
+  background-color: transparent;
+
+  color: white;
+
   padding: 0 20px 20px 20px;
-  margin-bottom: -40px;
 }
 .skills-list {
   display: flex;
@@ -123,25 +119,25 @@ ul {
 }
 .proyect-container {
   width: 300px;
-  height: 200px;
+
   border: 1px solid #0f04fc;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-  background-color: white;
 }
 .img-proyect {
   flex: 1 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 .bar-link {
   height: 40px;
-  background-color: #05054d;
-  /* border-top: 1px solid #a15ef7; */
+
+  border-top: 1px solid #0f04fc;
   bottom: 0;
   color: white;
   display: flex;
@@ -153,7 +149,6 @@ ul {
 }
 
 footer {
-  background-color: #090c9b;
   height: 300px;
   display: flex;
   flex-direction: row;
